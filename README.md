@@ -1,4 +1,4 @@
-# 📝 OFrm
+# 📝 OParse
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Linux%20%2F%20Windows-informational?style=flat-square&logo=linux&logoColor=white&color=0a0c10"/>
@@ -9,13 +9,13 @@
   <img src="https://img.shields.io/badge/Version-v2.0-cyan?style=flat-square"/>
 </p>
 
-> **OFrm** is a powerful data formatter and converter. It supports formatting, validation, and conversion between **JSON**, **XML**, and **YAML**, plus minify, diff, batch processing, and customizable output.
+> **OParse** is a powerful data formatter and converter. It supports formatting, validation, and conversion between **JSON**, **XML**, and **YAML**, plus minify, diff, batch processing, and customizable output.
 
 ---
 
 ## 📌 Overview
 
-OFrm makes working with structured data simple and fast. Whether you need to pretty-print, validate, convert formats, minify, or compare JSON objects — OFrm handles it all in a clean terminal interface with colored output and automatic file saving.
+OParse makes working with structured data simple and fast. Whether you need to pretty-print, validate, convert formats, minify, or compare JSON objects — OParse handles it all in a clean terminal interface with colored output and automatic file saving.
 
 ---
 
@@ -59,8 +59,7 @@ OFrm makes working with structured data simple and fast. Whether you need to pre
 ## 🚀 Usage
 
 ```bash
-./OFrm
-
+./OParse
 
 📁 Output
 All results are saved to the ofrm_results/ directory:
