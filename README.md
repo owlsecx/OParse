@@ -18,13 +18,18 @@
 
 ## 📌 Overview
 
-Format · Validate · Convert · Diff · Schema · Query ║
+OParse is a data formatter and parser for converting and querying structured data (JSON, XML, YAML, TOML, CSV) with flatten, NDJSON, and keypath helpers on the CLI. Core features use the standard library; optional packages enable YAML/TOML/JMESPath. Batch transform, schema validation, and config persistence are available in the broader interactive workflow.
 
 ---
 
 ## ✨ Features
 
-- Structured data formatter — JSON, XML, YAML, TOML, CSV, NDJSON
+- Flatten JSON files to dotted keys (`--flatten`)
+- Parse NDJSON into a JSON array (`--ndjson`)
+- Extract a keypath from a JSON file (`--keypath FILE PATH`)
+- Configurable output directory via `--output` / `-o`
+- Broader workflow: JSON ↔ XML ↔ YAML ↔ TOML ↔ CSV convert, validate, diff, and hash
+- Optional JMESPath query and JSON Schema validation when extra packages are installed
 
 ---
 
@@ -38,7 +43,10 @@ Format · Validate · Convert · Diff · Schema · Query ║
 ## 🚀 Usage
 
 ```bash
-./OParse
+./OParse --flatten data.json
+./OParse --ndjson events.ndjson -o oparse_results
+./OParse --keypath data.json user.email
+./OParse --help
 ```
 
 ---
